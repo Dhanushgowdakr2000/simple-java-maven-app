@@ -1,0 +1,7 @@
+name: Always Pass  
+on: [push]  
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+    steps:  
+      - run: echo "This will pass!"  
